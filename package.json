@@ -1,11 +1,11 @@
 {
-  "name": "mpo-user-api",
+  "name": "user-api",
   "version": "0.1.0",
   "description": "API for handling all users account managment",
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:MyPropertyOffice/user-api.git"
+    "url": "git@github.com:hashtagsell/user-api.git"
   },
   "scripts": {
     "migrations": "bash init/apply-migrations.sh",
@@ -15,11 +15,12 @@
   "author": "Brad Davis",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MyPropertyOffice/user-api/issues"
+    "url": "https://github.com/hashtagsell/user-api/issues"
   },
   "dependencies": {
     "aglio": "^2.0.0",
     "async": "^1.4.0",
+    "bcrypt": "^0.8.4",
     "body-parser": "^1.13.2",
     "bunyan": "^1.4.0",
     "cors": "^2.7.1",
